@@ -8,7 +8,7 @@ const Checkbox = (props) => {
          <label className="checkbox__container"><h1>{props.text}</h1>
   <input type="checkbox" name={props.name} checked={props.checked} onChange={props.onChange/*()=>setcheckBoxValue(!checkBoxValue.includesLowercase)*/}/>
   <span className="checkmark"></span>
-  {/*console.log(props.checked)*/}
+  {/*console.log( props.checked )*/}
 </label>
        
 
