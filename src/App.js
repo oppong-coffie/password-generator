@@ -1,10 +1,8 @@
-import logo from './logo.svg';
 import React from 'react'
 import './App.css';
 import './index.css';
 import GeneratedCode from './components/GeneratedCode/GeneratedCode'
 import SettingAdjustment from './components/SettingAdjustment/SettingAdjustment';
-import { useState } from 'react';
 
 function App() {
   const [sliderValue, setSliderValue] = React.useState(10);
@@ -22,9 +20,6 @@ function App() {
 
   })
   let strength = 0;
-
-
-
 
   const letterList = [...Array(26)].map((_, i) => String.fromCharCode(i + 97))
   const upperLetterList = letterList.map(function (x) { return x.toUpperCase(); })

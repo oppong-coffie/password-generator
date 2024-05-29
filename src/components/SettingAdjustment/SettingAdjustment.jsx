@@ -1,7 +1,5 @@
 import React from 'react'
-import { unstable_renderSubtreeIntoContainer } from 'react-dom'
 import './setting-adjustment.css'
-import GeneratedCode from '../GeneratedCode/GeneratedCode'
 import Checkbox from '../Checkbox/Checkbox'
 import ArrowIcon from '../../images/icon-arrow-right.svg'
 
