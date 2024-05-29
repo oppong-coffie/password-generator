@@ -9,7 +9,7 @@ function App() {
   const [code, setCode] = React.useState("");
   const [strengthValue, setStrength] = React.useState("METER");
   //const[strength,setStrengthChecked]=React.useState(0);
-  const [errMessage, setError] = React.useState("Error: Could not Generate password. Please change desired setting");
+  const [errMessage] = React.useState("Error: Could not Generate password. Please change desired setting");
 
 
   const [checkBoxValue, setcheckBoxValue] = React.useState({
