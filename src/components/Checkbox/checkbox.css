@@ -1,8 +1,6 @@
 .checkbox__container input{
     display: inline-block;
     height:20px;
- 
-  
     
 }
 .cbox{
@@ -13,7 +11,6 @@ label h1{
 padding-left:1rem;
     font-size: 1.12rem;
     font-weight: 700;   
-
 }
 
 .checkbox__container {
@@ -21,26 +18,20 @@ padding-left:1rem;
     position: relative;
     padding-left: 35px;
     margin-bottom: 25px;
- 
     cursor: pointer;
     font-size: 22px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;
-    
+    user-select: none; 
   }
-  
-
   .checkbox__container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
-   
     height: 0;
     width: 0;
   }
-  
 
   .checkmark {
     position: absolute;
@@ -53,28 +44,23 @@ padding-left:1rem;
     
   }
   
-
   .checkbox__container:hover input ~ .checkmark {
     background-color: #ccc;
   }
   
-
   .checkbox__container input:checked ~ .checkmark {
     background-color: #A4FFAF;
   }
-  
 
   .checkmark:after {
     content: "";
     position: absolute;
     display: none;
   }
-  
  
   .checkbox__container input:checked ~ .checkmark:after {
     display: block;
   }
-  
 
   .checkbox__container .checkmark:after {
     left: 9px;
@@ -82,7 +68,6 @@ padding-left:1rem;
     width: 5px;
     height: 10px;
     border: solid black;
-    
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
