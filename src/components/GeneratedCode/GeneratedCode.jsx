@@ -8,14 +8,12 @@ const GeneratedCode = (props) => {
  
   function copy(text){
    
-
     let stringPassword=text.toString();
     let finalPassword=stringPassword.split(',').join('');
     navigator.clipboard.writeText(finalPassword)
    console.log(finalPassword);
    setCopy("Copied");
   }
-
 
   const initialcode="P4$5W0rD!";
 
