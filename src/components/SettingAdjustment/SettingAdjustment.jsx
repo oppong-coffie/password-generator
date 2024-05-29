@@ -26,10 +26,7 @@ const SettingAdjustment = (props) => {
                  break;
             default:
                 barClassname="bar-default"
-            
-        
     }
-
     
     return (
     <div className='setting__container'>
@@ -72,9 +69,6 @@ const SettingAdjustment = (props) => {
    <p> Generate</p>
     <img src={ArrowIcon} alt="arrow" />
   </button>
-
-  
-  
     </div>
    
 )}
