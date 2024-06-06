@@ -55,4 +55,4 @@ Emmanuel Oppong Coffie - bcict20099@ttu.edu.gh
 https://github.com/oppong-coffie/password-generator
 
 # Picture
-![Password Generator Screenshot](./images/Screenshot.png)
+![Password Generator Screenshot](.src/images/Screenshot.png)
