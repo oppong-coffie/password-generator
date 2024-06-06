@@ -46,18 +46,7 @@ function App() {
 
     }));
 
-
-
-
-
-
-
-
-
-
     console.log(strength)
-
-
 
   }
 

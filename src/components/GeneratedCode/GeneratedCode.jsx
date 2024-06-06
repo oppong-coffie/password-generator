@@ -25,7 +25,6 @@ const GeneratedCode = (props) => {
         <img src={CopyIcon} alt="copy_icon" onClick={() => copy(props.generatedCode)} tabIndex="0"/>
         <h1 className='copied-text'>{copyText}</h1>
         </div>
-        
     </div>
   )
 }
