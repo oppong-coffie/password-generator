@@ -1,6 +1,6 @@
 import React from 'react'
-import './generated-code.css'
-import CopyIcon from '../../images/icon-copy.svg'
+import './result.css'
+import CopyIcon from '../../photos/icon-copy.svg'
 import { isLabelWithInternallyDisabledControl } from '@testing-library/user-event/dist/utils'
 
 const GeneratedCode = (props) => {

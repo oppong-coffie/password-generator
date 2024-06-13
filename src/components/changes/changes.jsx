@@ -1,7 +1,7 @@
 import React from 'react'
-import './setting-adjustment.css'
-import Checkbox from '../Checkbox/Checkbox'
-import ArrowIcon from '../../images/icon-arrow-right.svg'
+import './changes.css'
+import Checkbox from '../boxes/mainboxes'
+import ArrowIcon from '../../photos/icon-arrow-right.svg'
 
 const SettingAdjustment = (props) => {
     let barClassname="";

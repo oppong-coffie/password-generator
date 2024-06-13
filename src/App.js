@@ -1,8 +1,8 @@
 import React from 'react'
 import './App.css';
 import './index.css';
-import GeneratedCode from './components/GeneratedCode/GeneratedCode'
-import SettingAdjustment from './components/SettingAdjustment/SettingAdjustment';
+import GeneratedCode from './components/results/result'
+import SettingAdjustment from './components/changes/changes';
 
 function App() {
   const [sliderValue, setSliderValue] = React.useState(10);
@@ -57,9 +57,6 @@ function App() {
     Object.keys(checkBoxValue).forEach(function (key) {
       if (checkBoxValue[key] === true) {
         strength = strength + 1;
-        // setStrengthChecked(strength+1)
-        //  console.log(strength)
-
       }
 
       if (strength === 1) {
@@ -132,12 +129,7 @@ function App() {
         < GeneratedCode generatedCode={code} />
         <SettingAdjustment errMessage={errMessage} styleslider={styleslider} sliderValue={sliderValue} checkBoxValue={checkBoxValue} handleChange={handleChange} handleCheckChange={handleCheckChange} handleSubmit={handleSubmit} strength={strengthValue} />
 
-
-
-
       </div>
-
-
 
     </div>
   );
